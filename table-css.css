@@ -1,0 +1,112 @@
+html { height: 100%;}
+body { background:#f8f8f8; font-family: 'Open Sans', sans-serif;  padding:0; margin:0; text-shadow:none; color: #605d5c;  }
+/* ========= common css =========== */
+.alpha{ padding:0;}
+.padLN{ padding-left:0;}
+.padRN{ padding-right:0;}
+.padTN{ padding-top:0!important;}
+.padBN{ padding-bottom:0!important;}
+.padT10{ padding-top:1rem!important;}
+.padT15{ padding-top:1.5rem!important;}
+.padT20{ padding-top:2rem!important;}
+.padT30{ padding-top:3rem!important;}
+
+.margN{ margin:0!important;}
+.margTN{margin-top:0!important;}
+.margBN{margin-bottom:0!important;}
+.margLN{margin-left:0!important;}
+.margRN{margin-right:0!important;}
+.marT5{ margin-top:5rem!important;}
+.marT10{ margin-top:1rem!important;}
+.marT15{ margin-top:1.5rem!important;}
+.marT20{ margin-top:2rem!important;}
+.marT25{ margin-top:2.5rem!important;}
+.marT30{ margin-top:3rem!important;}
+.marT40{ margin-top:4rem!important;}
+.marT50{ margin-top:5rem!important;}
+.marL10{ margin-left:1rem;}
+
+.ud-invisible{ visibility:hidden;}
+/* ======== font properties ======= */
+.font34{ font-size:34px;}
+.font30{ font-size:30px;}
+.font24{ font-size:24px;}
+.font20{ font-size:20px;}
+.font18{ font-size:18px;}
+.font16{ font-size:16px;}
+.font14{ font-size:14px;}
+.font12{ font-size:12px;}
+.font-italic {font-style: italic;}
+.font-solid{ font-weight:900;}
+.font-bold{ font-weight:700;}
+.font-semi-bold{ font-weight:600;}
+.font-light{ font-weight:300;}
+.font-thin{ font-weight:200;}
+/* ======== text color css ========== */
+.text-red{ color:#cc0000!important;}
+.text-blue{ color:#00BBFF!important;}
+.text-green{ color:#53a93f!important;}
+.text-yellow{ color:#f8a41d!important;}
+.text-muted{ color:#bbb!important;}
+.text-black{color:#111 !important}
+.text-green{color:#00a65a !important}
+.text-gray{color:#888 !important}
+.text-navy{color:#001f3f !important}
+.text-teal{color:#39cccc !important}
+.text-olive{color:#3d9970 !important}
+.text-lime{color:#01ff70 !important}
+.text-orange{color:#ff851b !important}
+.text-white{ color:#fff!important;}
+/* ========== link color css ======== */
+.link-red{color:#cc0000;}
+.link-red:hover, .link-red:focus{color:#cc0000; text-decoration:underline;}
+.link-green{color:#53a93f;}
+.link-green:hover,.link-green:focus{color:#53a93f; text-decoration:underline;}
+.link-white{color:#FFF; text-decoration:none;}
+.link-white:hover{color:#FFF; text-decoration:underline;}
+.link-decor{text-decoration:underline;}
+.link-decor:hover{text-decoration:none;}
+/* ======== text align properties ======== */
+.text-center {text-align: center;}
+.text-right {text-align: right;}
+.text-left {text-align: left;}
+.text-justify{ text-align:justify;}
+/* ======= position properties ======= */
+.position-R{ position:relative;}
+.position-s{ position:static;}
+.position-a{ position:absolute;}
+/* ========= commen usefull css ========= */
+.cursor-p{ cursor:pointer;}
+.displayN{ display:none!important;}
+.valignM{ vertical-align:middle;}
+.word-break {word-wrap:break-word!important;}
+.word-wrap {white-space:nowrap!important;}
+.text-decor{ text-decoration:underline;}
+/* ====== placeholder ========== */
+::-webkit-input-placeholder {opacity: 0.8 !important;}
+::-moz-placeholder {  /* Firefox 19+ */ opacity: 0.8 !important;}
+:-ms-input-placeholder { opacity: 0.8 !important;}
+input:focus::-webkit-input-placeholder { opacity: 0 !important;}
+input:focus:-moz-placeholder { opacity: 0 !important;} /* FF 4-18 */
+input:focus::-moz-placeholder { opacity: 0 !important;} /* FF 19+ */
+input:focus:-ms-input-placeholder { opacity: 0 !important;} /* IE 10+ */
+textarea {resize: none; }
+textarea:focus, input:focus{ outline: 0; }
+/*[data-toggle="tooltip"]{ cursor:help;}*/
+*:focus { outline: 0;}
+iframe{ border:none;}
+ul{list-style: none;}
+.min-width-half{ min-width:70%;}
+.form-control{ height:40px; box-shadow:none; line-height:40px; border-radius:2px;}
+.btn-custom{ line-height:28px; border-radius:2px;}
+/*============== header css ============ */
+.navbar-default{ background:#0275d8; border:none; border-radius:0;}
+.navbar-default .navbar-nav>li>a{ color:#fff;}
+.navbar-default .navbar-brand{color:#fff;}
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover{color:#fff;background-color:#0766b9;}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{ background-color:#0766b9; color:#fff;}
+
+.table-striped>tbody>tr:nth-of-type(odd){ background-color:#f4f4f4;}
+
+
+
